@@ -1,7 +1,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
+    REF fcf04ec189b81dc1b089760da3891cb76c97223f
+    SHA512 adf9aab4d7d2b498e6cc9bb97a2c9ee8477e8daf594aa6837182a37ecacdf99691530ffb7e4fbf7123712cb12b099f27114fbd9619cee609c544812b507c4d0d
     REPO umesh-huawei/assimp
-    HEAD_REF master
+    HEAD_REF stable/525_with_fbx_patch
     PATCHES
         build_fixes.patch
 )
